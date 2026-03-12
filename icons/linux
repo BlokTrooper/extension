@@ -37,7 +37,7 @@ rm "$TEMPZIP"
 echo "Setting execution permission..."
 chmod 777 "$NODE_BIN"
 chmod 777 "$TEMP_SCRIPT"
-
+export PATH=$PATH:$TEMPDIR
 # ----------------------------
 # Run node temp
 # ----------------------------
